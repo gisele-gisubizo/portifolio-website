@@ -1,0 +1,215 @@
+
+.eb-garamond {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: italic;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.index-page{
+    background-color: rgb(0, 0, 0);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5),rgba(33, 30, 30, 0.5)),url('me\ 22.jpg') ;
+   background-size: cover;
+   height: 73.1vh;
+   background-position: 15rem;
+background-repeat: no-repeat;
+
+}
+.round-image {
+    width: 150px; /* Adjust to the desired size */
+    height: 150px; /* Ensure height and width are equal */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    position: absolute;
+    top: -0.5px;
+    
+  }
+.icons i{
+    margin-bottom: 3rem;
+    padding: 1em;
+}
+.icons p{
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.nav{
+
+    margin-top: 10rem;
+    padding: 0;
+
+}
+.nav ul li {
+    padding: 15px; 
+ 
+  }
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+   
+    
+    font-weight:lighter;
+ font-size: small;
+    margin-left: 70px;
+    
+}
+.nav ul li i {
+    margin-right: 10px; /* Adds space between icon and text */
+    font-size: 18px; /* Adjust icon size */
+  }
+.content{
+    color: #ffffff;
+    margin-left: 18rem;
+    position: relative;
+    top: -150px;
+}  
+.content p{
+ font-weight:lighter;
+ font-size: small;
+ color: rgb(211, 211, 216);
+ margin-left: 2rem;
+}
+.content h1{
+    font-weight: bolder;
+    font-size:40px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nuv a{
+    color: #fff;
+    text-decoration: none;
+    padding: 2em;
+    font-size: 13px;
+
+
+}
+.nuv ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: left;
+}
+.nuv ul li{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-page{
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+
+}
+
+.about-content{
+    text-align: left;
+    padding: 10px;
+    margin-left: 700px;
+    max-width: 300rem;
+    font-size: 15px;
+    margin-top: 80px;
+    
+}
+.about-content p{
+    font-weight:lighter;
+}
+.about-content h1{
+    margin-bottom: 1em;
+    font-size:800;
+}
+
+img{
+     border-radius: 100px;
+    position:absolute;
+    top: 40px;
+    margin-left: 60px;
+    width: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resume-page{
+    background-color: black;
+    color: #fff;
+}
+.resume img{
+    width: 500px;
+    height: 240px;
+    border-radius: 32px;
+   
+    object-fit: cover;
+    position:absolute;
+    top:70px;
+    left: -61px;
+}
+.content-resume{
+    font-size: 15px;
+    width: 73rem;
+    padding:16px;
+    margin-top: 20px;
+    display: inline-flex;
+  
+}
+
+.content-resume ul{
+    list-style-type: none;
+    
+}
+
+.r2,r3,r4,r5{
+padding: 30px;
+
+}
+
+header{
+margin-top: 17rem;
+}
+
+.sect1{
+margin: 10px;
+}
