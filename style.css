@@ -9,6 +9,8 @@
 *{
     margin: 0;
     padding: 0;
+  
+   
 }
 .index-page{
     background-color: rgb(0, 0, 0);
@@ -20,15 +22,30 @@ background-repeat: no-repeat;
 
 }
 .round-image {
-    width: 130px; /* Adjust to the desired size */
-    height: 150px; /* Ensure height and width are equal */
-    border-radius: 50%; /* Makes the image round */
-    object-fit: cover; /* Ensures the image covers the area without stretching */
+    width: 130px; 
+    border-radius: 50%; 
+    object-fit: cover; 
     position: absolute;
     top: -0.5px;
     margin-left: 5.5px;
     
   }
+
+  .icons-top{
+    
+    display:flex;
+    margin-top: 13px;
+    padding-left: 28em;
+    width: 10em;
+    text-align: center;
+    text-indent: 20px;
+    height:2em ;
+    transition:background-color 0.3s, color 0.3s; ;
+   
+  }
+
+  
+
 .icons i{
     margin-bottom: 3rem;
     padding: 1em;
@@ -66,22 +83,22 @@ background-repeat: no-repeat;
 
 .nav ul li a {
     text-decoration: none;
-    color: #fff; /* White text color by default */
+    color: #fff; 
     padding: 10px 20px;
     display: block;
-    background-color: transparent; /* No background by default */
+    background-color: transparent; 
     transition: background-color 0.3s, color 0.3s;
 }
 
 .nav ul li a:hover {
    
-    color: #ed2b2b; /* Keep text white on hover */
+    color: #ed2b2b;
     
 }
 
 .nav ul li i {
-    margin-right: 10px; /* Adds space between icon and text */
-    font-size: 18px; /* Adjust icon size */
+    margin-right: 10px; 
+    font-size: 18px; 
   
   }
 
@@ -125,7 +142,7 @@ background-repeat: no-repeat;
 footer{
     background-color: black;
     color: rgb(255, 255, 255);
-    padding: 20px 50px; /* Increase padding to make the footer taller */
+    padding: 20px 50px; 
     text-align: center;
     position: relative;
     bottom: 0;
@@ -177,7 +194,7 @@ footer{
 
 .nuv ul li a:hover {
    
-    color: #ed2b2b; /* Keep text white on hover */
+    color: #ed2b2b; 
     
 }
 
@@ -347,14 +364,14 @@ body{
 
 .nuv-contact ul li a:hover {
    
-    color: #ed2b2b; /* Keep text white on hover */
+    color: #ed2b2b; 
     
 }
 
 .contact-form{
    justify-content: center;
    
-   margin-top: 2em;
+   margin-top: 1em;
     margin-left: 20em;
         background-color: rgba(0, 0, 0, 0.6);  
         padding:15px;
@@ -436,8 +453,7 @@ margin-bottom: 10px;
 
 .nuv-services ul li a:hover {
    
-    color: #ed2b2b; /* Keep text white on hover */
-    
+    color: #ed2b2b; 
 }
 
 .nuv-services ul{
@@ -456,7 +472,7 @@ h1{
     margin-top: 50px;
     text-align: center;
     font-size: 60px;
- 
+    text-decoration: dashed 2px solid red;
 
 }
 
@@ -470,13 +486,13 @@ h1{
 }
 
 .service-box{
-    background-color: rgba(80, 78, 78, 0.5); /* Semi-transparent background */
-    color: white; /* Text color for contrast */
+    background-color: rgba(80, 78, 78, 0.5); 
+    color: white; 
     padding: 20px;
     border-radius: 10px;
     width: 30%;
     border: 5px solid rgb(0, 0, 0);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     transition: transform 0.3s ease;
 }
 .service-box h3{
