@@ -14,18 +14,19 @@
     background-color: rgb(0, 0, 0);
     background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5),rgba(33, 30, 30, 0.5)),url('me\ 22.jpg') ;
    background-size: cover;
-   height: 86vh;
-   background-position: 15rem;
+   height: 130vh;
+   background-position: 13rem;
 background-repeat: no-repeat;
 
 }
 .round-image {
-    width: 150px; /* Adjust to the desired size */
+    width: 130px; /* Adjust to the desired size */
     height: 150px; /* Ensure height and width are equal */
     border-radius: 50%; /* Makes the image round */
     object-fit: cover; /* Ensures the image covers the area without stretching */
     position: absolute;
     top: -0.5px;
+    margin-left: 5.5px;
     
   }
 .icons i{
@@ -37,6 +38,7 @@ background-repeat: no-repeat;
     margin-bottom: 20px;
     margin-left: 15px;
 }
+
 
 .nav{
 
@@ -59,16 +61,36 @@ background-repeat: no-repeat;
  font-size: small;
     margin-left: 70px;
     
+    
 }
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text color by default */
+    padding: 10px 20px;
+    display: block;
+    background-color: transparent; /* No background by default */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav ul li a:hover {
+   
+    color: #ed2b2b; /* Keep text white on hover */
+    
+}
+
 .nav ul li i {
     margin-right: 10px; /* Adds space between icon and text */
     font-size: 18px; /* Adjust icon size */
+  
   }
+
+  
 .content{
     color: #ffffff;
     margin-left: 18rem;
     position: relative;
-    top: -250px;
+    top: -100rem;
 }  
 .content p{
  font-weight:lighter;
@@ -76,6 +98,13 @@ background-repeat: no-repeat;
  color: rgb(211, 211, 216);
  margin-left: 10em;
 }
+.content h1::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 10px 10px 5px rgba(255, 25, 0, 0.671);
+}
+
 .content h1{
     font-weight: bolder;
     font-size:40px;
@@ -83,10 +112,20 @@ background-repeat: no-repeat;
     
    
 }
+
+.content h6{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:10em ;
+    margin-top: 5em;
+
+}
+
+
 footer{
     background-color: black;
     color: rgb(255, 255, 255);
-    padding: 40px 90px; /* Increase padding to make the footer taller */
+    padding: 20px 50px; /* Increase padding to make the footer taller */
     text-align: center;
     position: relative;
     bottom: 0;
@@ -131,7 +170,15 @@ footer{
     justify-content: left;
 }
 .nuv ul li{
+   
     font-family: 'Times New Roman', Times, serif;
+    transition:  color 0.3s;
+}
+
+.nuv ul li a:hover {
+   
+    color: #ed2b2b; /* Keep text white on hover */
+    
 }
 
 .about-page{
@@ -281,24 +328,33 @@ body{
     text-decoration: none;
     padding: 2em;
     font-size: 13px;
+    transition: background-color 0.3s, color 0.3s;
 }
+
 
 .nuv-contact ul{
     display: flex;
     text-decoration: none;
     list-style-type: none;
     justify-content: left;
+   
 }
-
 
 .nuv-contact{
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+.nuv-contact ul li a:hover {
+   
+    color: #ed2b2b; /* Keep text white on hover */
+    
+}
+
 .contact-form{
    justify-content: center;
    
-   margin-top: 1em;
+   margin-top: 2em;
     margin-left: 20em;
         background-color: rgba(0, 0, 0, 0.6);  
         padding:15px;
@@ -375,6 +431,13 @@ margin-bottom: 10px;
     text-decoration: none;
     padding: 2em;
     font-size: 13px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nuv-services ul li a:hover {
+   
+    color: #ed2b2b; /* Keep text white on hover */
+    
 }
 
 .nuv-services ul{
@@ -393,6 +456,7 @@ h1{
     margin-top: 50px;
     text-align: center;
     font-size: 60px;
+ 
 
 }
 
