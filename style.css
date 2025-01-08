@@ -9,6 +9,8 @@
 *{
     margin: 0;
     padding: 0;
+   
+
   
    
 }
@@ -17,8 +19,9 @@
     background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5),rgba(33, 30, 30, 0.5)),url('me\ 22.jpg') ;
    background-size: cover;
    height: 130vh;
-   background-position: 13rem;
+   background-position: 15rem;
 background-repeat: no-repeat;
+
 
 }
 .round-image {
@@ -104,49 +107,48 @@ background-repeat: no-repeat;
   }
 
   
-.content{
-    color: #ffffff;
-    margin-left: 18rem;
-    position: relative;
-    top: -100rem;
-}  
+  .content {
+    padding: 10px;
+  margin-left: 20em;
+  position: absolute;
+  top: 20em;
+  color: #ffffff;
+}
+
+.content h1 {
+    font-size: 4em;
+
+    display: inline-block;
+}
+
 .content p{
- font-weight:lighter;
- font-size: small;
- color: rgb(211, 211, 216);
- margin-left: 10em;
+font-size: 14px;
+color: #f5f1f1;
 }
+
 .content h1::first-letter{
-    font-size: 3em;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 10px 10px 5px rgba(255, 25, 0, 0.671);
+    font-size: 1.5em; /* Make the first letter slightly larger */
+    color: #ffffff; /* Regular color for the first letter */
+    text-shadow: 7px 7px 10px rgba(255, 25, 25, 0.7); /* Dark red shadow */
 }
 
-.content h1{
-    font-weight: bolder;
-    font-size:40px;
-    margin-right: 12em;
-    
-   
+.content p {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
 }
 
-.content h6{
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-    margin-left:10em ;
-    margin-top: 5em;
 
-}
 
 
 footer{
     background-color: black;
     color: rgb(255, 255, 255);
     padding: 20px 50px; 
+   margin-top: 20em;
     text-align: center;
-    position: relative;
-    bottom: 0;
+   
+    
   }
 
   .footer p {
