@@ -1,0 +1,323 @@
+/*-------home----*/
+
+@media (max-width: 480px) {
+  /* Styles for small mobile devices */
+  *{
+    margin: 0;
+    padding: 0;
+   
+
+  
+   
+}
+.index-page{
+    background-color: rgb(0, 0, 0);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5),rgba(33, 30, 30, 0.5)),url('me\ 22.jpg') ;
+   background-size: cover;
+   height: 130vh;
+   background-position: 8rem;
+background-repeat: no-repeat;
+
+
+}
+.round-image {
+    width: 50px;
+    height: 500px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    position: absolute;
+    top: -0.2px;
+    margin-left: 2.5px;
+    
+  }
+
+  .icons-top{
+    
+    display:flex;
+    margin-top: 6px;
+    padding-left: 13em;
+    width: 5em;
+    text-align: center;
+    text-indent: 10px;
+    height:1em ;
+    transition:background-color 0.3s, color 0.3s; ;
+   
+  }
+
+  
+
+.icons i{
+    margin-bottom: 1rem;
+    padding: 0.5em;
+}
+.icons p{
+    color: #ffffff;
+    margin-bottom: 1%;
+    margin-left: 7px;
+}
+
+
+.nav{
+
+    margin-top: 5rem;
+    padding: 0;
+
+}
+.nav ul li {
+    padding: 7px; 
+ 
+  }
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+   
+    
+    font-weight:lighter;
+ font-size: small;
+    margin-left: 20px;
+    
+    
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 3px 7px;
+    display: block;
+    background-color: transparent; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav ul li a:hover {
+   
+    color: #ed2b2b;
+    
+}
+
+.nav ul li i {
+    margin-right: 5px; 
+    font-size: 8px; 
+  
+  }
+
+  
+  .content {
+    padding: 5px;
+  margin-left: 10em;
+  position: absolute;
+  top: 10em;
+  color: #ffffff;
+}
+
+.content h1 {
+    font-size: 2em;
+
+    display: inline-block;
+}
+
+.content p{
+font-size: 7px;
+color: #f5f1f1;
+}
+
+.content h1::first-letter{
+    font-size: 0.5em; 
+    color: #ffffff; 
+    text-shadow: 7px 7px 10px rgba(255, 25, 25, 0.7); 
+}
+
+.content p {
+    font-size: 0.5em;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+
+
+
+
+footer {
+  background-color: black;
+  color:white;
+  padding: 10px 20px;
+  text-align: center; 
+ margin-top: 140px;
+}
+
+.footer-icons-top{
+  display: flex;
+  justify-content: flex-start; /* Align icons to the left */
+  gap: 5px; /* Space between icons */
+  padding: 6px 0;
+  justify-content: center; /* This will center the icons on mobile */
+}
+
+.footer-icons-top i {
+  font-size: 1rem; /* Icon size */
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+}
+
+@media (max-width: 768px) {
+  /* Styles for mobile devices */
+  .index-page{
+    height: 110vh;  
+    background-position: center center;  
+    
+    background-color: rgb(0, 0, 0);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5),rgba(33, 30, 30, 0.5)),url('me\ 22.jpg') ;
+   background-size: cover;
+  
+background-repeat: no-repeat;
+
+   }
+   .round-image {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    position: absolute;
+    
+    margin-left: 1px;
+    
+  }
+
+  .icons-top{
+    
+    display:flex;
+    margin-top: 10px;
+    padding-left: 20em;
+    width: 6em;
+    text-align: center;
+    text-indent: 20px;
+    height:2em ;
+    transition:background-color 0.3s, color 0.3s; ;
+   
+  }
+
+  
+
+.icons i{
+    margin-bottom: 1rem;
+    padding: 0.5em;
+}
+.icons p{
+    color: #ffffff;
+    margin-bottom: 15%;
+    margin-left: 10px;
+}
+
+
+.nav{
+
+    margin-top: 6rem;
+    padding: 0;
+
+}
+.nav ul li {
+    padding: 10px; 
+ 
+  }
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+   
+    
+    font-weight:lighter;
+ font-size: small;
+    margin-left: 40px;
+    
+    
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 5px 10px;
+    display: block;
+    background-color: transparent; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav ul li a:hover {
+   
+    color: #ed2b2b;
+    
+}
+
+.nav ul li i {
+    margin-right: 5px; 
+    font-size: 12px; 
+  
+  }
+
+  
+  .content {
+    padding: 5px;
+  margin-left: 10em;
+  position: absolute;
+  top: 10em;
+  color: #ffffff;
+}
+
+.content h1 {
+    font-size: 2em;
+
+    display: inline-block;
+}
+
+.content p{
+font-size: 20px;
+color: #f5f1f1;
+}
+
+.content h1::first-letter{
+    font-size: 1.5em; 
+    color: #ffffff; 
+    text-shadow: 7px 7px 10px rgba(255, 25, 25, 0.7); 
+}
+
+.content p {
+    font-size: 1em;
+    color: #ffffff;
+    margin-top: 5px;
+}
+footer {
+    padding: 5px 5px; 
+    margin-left: -10rem;
+    
+  }
+
+footer{
+    font-size: 12.5px;
+}
+  .icons-top {
+    justify-content: flex-start; /* Center the icons on smaller screens */
+    gap: 0.5px;
+     /* Reduce space between icons on smaller screens */
+  }
+
+  .icons-top i {
+    font-size: 0.9rem; /* Reduce icon size for mobile */
+   
+  }
+}
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Styles for tablets */
+}
+
+@media (min-width: 1281px) {
+  /* Styles for laptops, desktops, and larger screens */
+}
