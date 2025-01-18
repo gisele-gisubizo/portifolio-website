@@ -1,3 +1,4 @@
+<!---Homepage----->
 
 .eb-garamond {
   font-family: "EB Garamond", serif;
@@ -314,7 +315,7 @@ footer {
   footer {
     background-color: black;
     color:white;
-    padding: 10px 20px;
+    padding: 10px 50px;
     text-align: center; 
    margin-top: 300px;
   }
@@ -462,7 +463,7 @@ footer {
       margin-top: 5px;
   }
   footer {
-      padding: 5px 5px; 
+      padding: 5px 10px; 
       margin-left: -10rem;
       margin-top: 300px;
       
@@ -483,10 +484,18 @@ footer {
     }
   }
   
+
+
+
+
+
+
+
+
+
   
-  
-  
-  
+<!-----about-page---->
+
 
 *{
     margin: 0;
@@ -569,192 +578,170 @@ img{
 
 }
 @media (max-width: 480px) {
-    /* Styles for small mobile devices */
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    .about-page{
-       
-        height: 40px;
-        display:inline-block;
-    }
-    
-    .nuv a{
-        color: #fff;
-        text-decoration: none;
-        padding: 1em;
-        font-size: 1px;
-    
-    
-    }
-    .nuv ul{
-        display: flex;
-        text-decoration: none;
-        list-style-type: none;
-        justify-content: left;
-    }
-    .nuv ul li{
-       
-        font-family: 'Times New Roman', Times, serif;
-        transition:  color 0.3s;
-    }
-    
-    .nuv ul li a:hover {
-       
-        color: #ed2b2b; 
-        
-    }
-    
-    .about-page{
-        background-color: black;
-        color: #fff;
-        font-family: sans-serif,Arial, Helvetica, sans-serif;
-    
-    }
-    
-    .quote {
-        font-size: 15px;
-        justify-content: right;
-        position: absolute;
-        left: -10em;
-        bottom: -10em;
-        font-style: italic;
-        color: #ffffff;
-        max-width: 100px;
-        margin-top: 5px;
-        margin-left: 10em;
-        padding: 5px;
-        background-color: #000000;
-        border-left: 2.5px solid #ffffff;
-        border-radius: 5px;
-      }
-    
-    .about-content{
-        text-align: left;
-        padding: 10px;
-        margin-left: 700px;
-        max-width: 300rem;
-        font-size: 17px;
-        margin-top: 80px;
-        
-    }
-    .about-content p{
-        font-weight:lighter;
-    }
-    .about-content h1{
-        margin-bottom: 1em;
-        font-size:800;
-    }
-    
-    img{
-         border-radius: 100px;
-        position:absolute;
-        top: 40px;
-        margin-left: 60px;
-        width: 500px;
-    
-    }
+  /* Styles for small mobile devices */
+  .nuv a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+    font-size: 10px;
+
+
 }
+.nuv ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: left;
+}
+.nuv ul li{
+   
+    font-family: 'Times New Roman', Times, serif;
+    transition:  color 0.3s;
+}
+
+.nuv ul li a:hover {
+   
+    color: #ed2b2b; 
+    
+}
+
+.about-page{
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+
+}
+
+.quote {
+    font-size: 5px;
+    justify-content: right;
+    position: absolute;
+    left: -10em;
+    top: 25em;
+    font-style: italic;
+    color: #ffffff;
+    max-width: 100px;
+    margin-top: 5px;
+    margin-left: 10em;
+    padding: 5px;
+    background-color: #000000;
+    border-left: 1px solid #ffffff;
+    border-radius: 2px;
+  }
+
+.about-content{
+    text-align: left;
+    padding: 5px;
+    margin-left: 50px;
+    max-width: 250rem;
+    font-size: 8px;
+    margin-top: 10px;
+    justify-content:center;
+    display: block;
+    
+}
+.about-content p{
+    font-weight:lighter;
+}
+.about-content h1{
+    margin-bottom: 0.5em;
+    font-size:100;
+}
+
+img{
+     border-radius: 50px;
+    
+    margin-left: 30px;
+    width: 250px;
+
+}
+}
+
 @media (max-width: 768px) {
-    .nuv a{
-        color: #fff;
-        text-decoration: none;
-        padding: 0.5em;
-        font-size: 20px;
-    
-    
-    }
-    .nuv ul{
-        display: flex;
-        text-decoration: none;
-        list-style-type: none;
-        justify-content: left;
-    }
-    .nuv ul li{
-       
-        font-family: 'Times New Roman', Times, serif;
-        transition:  color 0.3s;
-    }
-    
-    .nuv ul li a:hover {
-       
-        color: #ed2b2b; 
-        
-    }
-    
-    .about-page{
-        background-color: black;
-        color: #fff;
-        font-family: sans-serif,Arial, Helvetica, sans-serif;
-    
-    }
-    
-    .quote {
-        font-size: 7px;
-        justify-content: right;
-        position: absolute;
-        left: -10em;
-        bottom: 25em;
-        font-style: italic;
-        color: #ffffff;
-        max-width: 100px;
-        margin-top: 5px;
-        margin-left: 10em;
-        padding: 5px;
-        background-color: #000000;
-        border-left: 1px solid #ffffff;
-        border-radius: 2.5px;
-      }
-    
-    .about-content{
+  /* Styles for mobile devices */
+  .nuv a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5em;
+    font-size: 10px;
 
-        padding: 10px;
-        margin-left: 350px;
-        max-width: 300rem;
-        font-size: 7px;
-        margin-top: 40px;
-        
-    }
-    .about-content p{
-        font-weight:lighter;
-        display: flex;
+
+}
+.nuv ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: left;
+}
+.nuv ul li{
+   
+    font-family: 'Times New Roman', Times, serif;
+    transition:  color 0.3s;
+}
+
+.nuv ul li a:hover {
+   
+    color: #ed2b2b; 
     
-        font-size: 13px;
-        
-    }
-    .about-content h1{
-        margin-bottom: 0.2em;
-        font-size:30px;
-    }
-    
-    img{
-         border-radius: 50px;
-        position:absolute;
-        top: 20px;
-        margin-left: 30px;
-        width: 250px;
-    
-    }
+}
+
+.about-page{
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
 
 }
 
+.quote {
+    font-size: 10px;
+    justify-content: right;
+    position: absolute;
+    left: -10em;
+    top: 38em;
+    font-style: italic;
+    color: #ffffff;
+    max-width: 100px;
+    margin-top: 5px;
+    margin-left: 10em;
+    padding: 1px;
+    background-color: #000000;
+    border-left: 1px solid #ffffff;
+    border-radius: 2px;
+  }
 
+.about-content{
+    text-align: left;
 
+   
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-top: 400px;
+    justify-content:center;
+    display: block;
+    
+}
+.about-content p{
+    font-weight:lighter;
+    
+}
+.about-content h1{
+    margin-bottom: 0.5em;
+    font-size:20px;
+    justify-content: right;
+}
 
+img{
+     border-radius: 100px;
+   
+    margin-left: 40px;
+    width: 270px;
 
+}
 
+}
 
-
-
-
-
-
-
-
-
-
-
+<!------resume-page------->
 
 
 
@@ -799,68 +786,56 @@ margin-top: 17rem;
 margin: 10px;
 }
 
-@media (max-width: 480px) {
-    /* Styles for small mobile devices */
+@media (max-width: 768px) {
     .resume-page{
-        background-color: black;
-        color: #fff;
+      background-color: black;
+      color: #fff;
+  }
+  .resume img{
+      width: 200px;
+      height: 140px;
+      border-radius: 18px;
+     
+      object-fit: cover;
+      position:absolute;
+      top:35px;
+      left: -30px;
+  }
+  .content-resume{
+      font-size: 9px;
+      width: 50rem;
     
-        overflow: hidden;
-        margin-bottom: 1px;
-    }
-    .resume img{
-        width: 250px;
-        height: 120px;
-        border-radius: 16px;
-       
-        object-fit: cover;
-        position:absolute;
-        top:35px;
-        left: -31px;
-    }
-    .content-resume{
-        font-size: 8px;
-        width: 36rem;
-        padding:8px;
-        margin-top: 10px;
-        display: inline-flex;
+      padding:9px;
+      margin-top: 10px;
+      display: inline-flex;
+    
+  }
+  
+  .content-resume ul{
+      list-style-type: none;
       
-    }
-    
-    .content-resume ul{
-        list-style-type: none;
-        
-    }
-    
-    .r2,r3,r4,r5{
-    padding: 15px;
-    
-    }
-    
-    header{
-    margin-top: 8rem;
-    }
-    
-    .sect1{
-    margin: 5px;
-    }
-}
+  }
+  
+  .r2,r3,r4,r5{
+  padding: 10px;
+  
+  }
+  
+  header{
+  margin-top: 10rem;
+  }
+  
+  .sect1{
+  margin: 50px;
+  }
+  
+  }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+<!------contact-page----->
 
 *{
     margin: 0;
@@ -962,8 +937,106 @@ margin-bottom: 10px;
 
 
 
+  @media (max-width: 768px) {
+    /* Styles for mobile devices */
+    body{
+      background-color: black;
+      color: #fff;
+      
+     
+      
+    }
+    
+    .nuv-contact a{
+      color: #fff;
+      text-decoration: none;
+      padding: 1em;
+      font-size: 10px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    
+    .nuv-contact ul{
+      display: flex;
+      text-decoration: none;
+      list-style-type: none;
+      justify-content: left;
+     
+    }
+    
+    .nuv-contact{
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    .nuv-contact ul li a:hover {
+     
+      color: #ed2b2b; 
+      
+    }
+    
+    .contact-form{
+     justify-content: center;
+     
+     margin-top: 1em;
+      margin-left: 3em;
+          background-color: rgba(0, 0, 0, 0.6);  
+          padding:7px;
+          border-radius: 10px;  
+          border: 3px solid #ccc; 
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+          width: 400px;
+          text-align: center;   
+          max-height: 90vh;
+      
+    }
+    
+    .contact-form h1{
+    
+    margin-top:2rem;
+    margin-bottom: 5px;
+    }
+    
+    .contact-form input,textarea{
+      
+      width: 40%;           
+      padding: 7px;
+      margin: 5px 0;
+      background-color: rgba(255, 255, 255, 0.2); 
+      color: white;         
+      border: 1px solid #fff; 
+      border-radius: 5px;   
+    }
+    .contact-form p{
+      color: #fff;
+      font-size: 15px;
+    }
+    .contact-form p{
+      position: absolute;
+      left: 7em;
+    }
+    .contact-form button{
+      background-color: #000000; 
+    color: white;               
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5px;
+    }
+    
+    .contact-form button:hover {
+      color: black;
+      background-color: #ffffff; 
+    }
+    
+    
+  }
+  
+  
 
-
+<----service-page---->
 
   *{
     margin: 0;
@@ -1035,3 +1108,72 @@ margin: 20px;
 font-size: 25px;
 }
 
+@media (max-width: 768px) {
+    /* Styles for mobile devices */
+    .service{
+      background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6),rgba(33, 30, 30, 0.6)),url('img/port.jpg') ;
+      color: #fff;
+      
+     
+      
+    }
+    
+    .nuv-services a{
+      color: #fff;
+      text-decoration: none;
+      padding: 1em;
+      font-size: 11px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .nuv-services ul li a:hover {
+     
+      color: #ed2b2b; 
+    }
+    
+    .nuv-services ul{
+      display: flex;
+      text-decoration: none;
+      list-style-type: none;
+      justify-content: left;
+    }
+    
+    
+    .nuv-services{
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    h1{
+      margin-top: 25px;
+      text-align: center;
+      font-size: 40px;
+      text-decoration: dashed 2px solid red;
+    
+    }
+    
+    .service-content{
+      margin-top: 30px;
+      display: flex;
+      padding: 15px;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 30px;
+    }
+    
+    .service-box{
+      background-color: rgba(80, 78, 78, 0.5); 
+      color: white; 
+      padding: 16px;
+      border-radius: 10px;
+      width: 35%;
+      border: 5px solid rgb(0, 0, 0);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+      transition: transform 0.3s ease;
+    }
+    .service-box h3{
+    margin: 16px;
+    font-size: 20px;
+    }
+    
+    
+  }
